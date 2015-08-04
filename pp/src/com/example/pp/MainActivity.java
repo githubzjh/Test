@@ -16,6 +16,7 @@ public class MainActivity extends Activity
 	protected void onCreate(Bundle savedInstanceState) 
 	{
 		super.onCreate(savedInstanceState);
+//
 		setContentView(R.layout.activity_main);
 		iv=(ImageView)findViewById(R.id.imageView1);
 		Bitmap bt=BitmapFactory.decodeFile(Environment.getExternalStorageDirectory().getAbsolutePath()+"/DCIM/Screenshots/IMG_20150608_144008.jpg");
